@@ -38,7 +38,7 @@ while (True):
     img[x-1][y+1] = [b,g,r]
     img[x-1][y-1] = [b,g,r]
     img[x+1][y-1] = [b,g,r] 
-    if i == 9000:
+    if i == 9000: # thay đổi giá trị này sẽ thay đổi độ lộn xộn của các pixel màu 
         break
 """opencv sử dụng hệ màu BGR không phải RGB ví dụ RGB :[255,0,0] thì phải đổi thành BGR [0,0,255]"""
 cv2.imwrite('anh2.png', img)
