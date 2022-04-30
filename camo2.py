@@ -1,4 +1,6 @@
 # CÀI ĐẦY ĐỦ THƯ VIỆN ĐỂ KHÔNG BỊ LỖI :( 
+#LƯU Ý : CÀI THƯ VIỆN Ở CÙNG 1 THƯ MỤC VỚI THƯ MỤC ĐẶT FILE CODE NÀY
+# NÊN THAM KHẢO CÁCH CÀI PYTHON VÀ THƯ VIÊN TRÊN MANG TRƯỚC KHI DÙNG
 import cv2
 import numpy as np
 import random 
