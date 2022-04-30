@@ -29,7 +29,7 @@ while (True):
     i = i+1
     x = random.randint(0,197)
     y = random.randint(0,197)  
-    a = random.randint(0,6) # đây là biến chọn random màu từ list màu được nhập bên trên để chỉnh lại đúng số lượng màu đã nhập chỉ cần thay đổi từ (0,6) thành (0, số màu đã nhập - 1)
+    a = random.randint(0,6) # đây là biến chọn random màu từ list màu được nhập bên trên để chỉnh lại đúng số lượng màu đã nhập chỉ cần thay đổi từ (0,6) thành (0, số màu đã nhập - 2)
     b=int(B[a])
     g=int(G[a])
     r=int(R[a])
