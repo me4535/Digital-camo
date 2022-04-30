@@ -4,8 +4,8 @@ import random
 from random import randint
 from PIL import Image, ImageDraw
 # Tạo khung trống
-image_path_output = 'C:/Users/quang/Desktop/heat/'
-image_name_output = 'anhnen.png'
+image_path_output = 'đặt đường dẫn để lưu ảnh nền vào đây' # theo mẫu 'C:/Users/ten file/ ten file/ ten file'
+image_name_output = 'anhnen.png' # ghi tên của file ảnh nền
 mode = 'RGB' 
 size = (200,200) #thay đổi size của bức ảnh chứa camo tại đây lưu khí khi đổi xong phải thay đổi 2 dòng 27 và 28 thành random.randint(0, số đã nhập - 2)
 color = (7, 36, 1) 
